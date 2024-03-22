@@ -16,7 +16,6 @@ export default function Skills() {
         text-xl
         font-semibold
         lg:text-3xl
-        tracking-wider
         "
         >
           We Can Work Togheter
