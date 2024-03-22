@@ -16,8 +16,16 @@ export default function Hero() {
             md:text-[8rem]
             lg:text-[10rem]
             xl:text-[12rem]
-         
-        "
+            landscape:sm:text-[3rem]
+            landscape:sm:leading-[2.8rem]
+
+            landscape:md:text-[6rem]
+            landscape:md:leading-[5rem]
+
+            landscape:lg:leading-[9.5rem]
+            landscape:lg:text-[12rem]
+            
+            "
           >
             I&apos;am <br />
             Full Stack <br />
@@ -49,12 +57,20 @@ export default function Hero() {
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]
-            xl:text-[12em]"
+            xl:text-[12rem]"
         >
           Hello, There.
         </h2>
         <Image
-          className="absolute bottom-0 right-0 rounded-bl-full  max-sm:max-w-[370px] max-md:max-w-[550px] max-lg:max-w-[650px]"
+          className="absolute
+          bottom-0
+          right-0
+          rounded-bl-full
+          max-sm:max-w-[370px]
+          max-md:max-w-[550px]
+          max-lg:max-w-[650px]
+          landscape:lg:max-w-[700px]
+          landscape:sm:max-w-[250px]"
           src="/lae.png"
           alt="lae"
           width={650}
