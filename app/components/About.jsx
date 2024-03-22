@@ -15,7 +15,7 @@ export default function About() {
     relative
     md:px-2
     min-h-screen
-    max-sm:min-h-dvh
+    max-sm:min-h-[calc(100svh+theme(spacing.20))]
     bg-[url('/bg-black.svg')]"
     >
       <div className="w-full flex flex-col gap-3 justify-center items-center">
