@@ -29,7 +29,7 @@ export default function Hero() {
           >
             I&apos;am a<br />
             Full Stack <br />
-            Dev
+            Dev.
           </h1>
           <h3
             className="
