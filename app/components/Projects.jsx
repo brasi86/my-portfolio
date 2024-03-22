@@ -52,7 +52,6 @@ export default function Projects() {
               lg:text-6xl
               xl:text-7xl
               py-1
-              px-2
               lg:py-3
               lg:px-2
               before:absolute
@@ -69,7 +68,25 @@ export default function Projects() {
               ease-in-out
               "
             >
-              <h3>{skill.label}</h3>
+              <div className="flex gap-2 items-center">
+                <h3>{skill.label}</h3>
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-7 h-7"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </div>
             </button>
           ))}
         </div>
