@@ -27,7 +27,7 @@ export default function Hero() {
             
             "
           >
-            I&apos;am <br />
+            I&apos;am a<br />
             Full Stack <br />
             Dev
           </h1>
