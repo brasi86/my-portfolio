@@ -52,8 +52,8 @@ export default function Navbar() {
           })
           .to(menu.current, {
             xPercent: 0,
-            borderBottomLeftRadius: 100,
-            borderTopLeftRadius: 100,
+            borderBottomLeftRadius: 400,
+            borderTopLeftRadius: 400,
             duration: 0.4,
             ease: "power2.inOut",
           });
@@ -109,12 +109,15 @@ export default function Navbar() {
         max-sm:px-10
         max-sm:flex-col
         justify-center
+        gap-6
         z-50
          
         "
         >
-          <p className="sm:hidden text-xs opacity-70 uppercase">menu</p>
-          <hr className=" opacity-60border mb-3" />
+          <div>
+            <p className="sm:hidden text-xs opacity-70 uppercase mb-1">menu</p>
+            <hr className=" opacity-60border mb-3" />
+          </div>
           <ul className="flex gap-4 font-semibold max-sm:flex-col">
             {NAV_LINKS.map((link) => (
               <a
