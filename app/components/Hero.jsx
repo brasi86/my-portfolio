@@ -7,23 +7,24 @@ export default function Hero() {
         <div className=" space-y-1">
           <h1
             className="
-            leading-[3rem] 
-            text-[3.5rem]
+            leading-[3.1rem] 
+            text-[3.15rem]
             md:leading-[7rem]
-            lg:leading-[10rem]
+            lg:leading-[9rem]
             sm:text-[6rem]
             sm:leading-[5rem]
             md:text-[8rem]
             lg:text-[10rem]
-            xl:text-[12rem]
+            xl:text-[15rem]
+
             landscape:sm:text-[3rem]
             landscape:sm:leading-[2.8rem]
-
+          
             landscape:md:text-[6rem]
             landscape:md:leading-[5rem]
 
-            landscape:lg:leading-[9.5rem]
-            landscape:lg:text-[12rem]
+            landscape:lg:leading-[8rem]
+            landscape:lg:text-[10rem]
             
             "
           >
@@ -66,11 +67,11 @@ export default function Hero() {
           bottom-0
           right-0
           rounded-bl-full
-          max-sm:max-w-[340px]
+          max-sm:max-w-[360px]
           max-md:max-w-[550px]
-          max-lg:max-w-[650px]
-          landscape:lg:max-w-[700px]
-          landscape:sm:max-w-full"
+          max-lg:max-w-[550px]
+          landscape:lg:max-w-[600px]
+          landscape:sm:max-w-[300px]"
           src="/lae.png"
           alt="lae"
           width={650}

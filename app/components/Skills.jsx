@@ -6,7 +6,7 @@ export default function Skills() {
     flex
     lg:items-center
     relative
-    md:px-2
+    px-2
     min-h-screen
     max-sm:min-h-svh
     bg-[url('/bg.svg')]"
@@ -52,7 +52,7 @@ export default function Skills() {
             opacity-10
             md:-left-2
             -left-1
-            text-[4.2rem]
+            text-[4rem]
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]

@@ -13,7 +13,7 @@ export default function About() {
     flex
     lg:items-center
     relative
-    md:px-2
+    px-4
     min-h-screen
     max-sm:min-h-svh
     bg-[url('/bg-black.svg')]"
@@ -37,8 +37,9 @@ export default function About() {
              leading-relaxed
             text-white
             max-w-xs
-            md:max-w-xl
-            text-center"
+            md:max-w-2xl
+            text-center
+            md:text-xl"
         >
           Explorer of new horizons, enthusiastic about applying my determination
           and rapid learning ability. Constant seeker of challenges, eager to
@@ -50,13 +51,14 @@ export default function About() {
       <h2
         className="
         text-white
+             max-sm:leading-[4rem]
             tracking-wide
             absolute
-            bottom-0
+            bottom-4
             opacity-10
             md:-left-2
             -left-1
-            text-[4.2rem]
+            text-[4rem]
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]

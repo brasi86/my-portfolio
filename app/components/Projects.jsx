@@ -33,7 +33,7 @@ export default function Projects() {
       >
         <div
           onMouseLeave={() => setSkills("all")}
-          className="flex px-6 flex-col lg:gap-3 opacity-90"
+          className="flex px-6 flex-col gap-3 opacity-90"
         >
           {SKILLS.map((skill) => (
             <button
@@ -47,13 +47,13 @@ export default function Projects() {
               font-semibold
               relative
             text-white
-              text-4xl
+              text-[1.95rem]
               md:text-6xl
               lg:text-6xl
               xl:text-7xl
               py-1
               lg:py-3
-              lg:px-2
+              px-4
               
               before:absolute
             before:bg-[#0e0e0e]
@@ -122,7 +122,7 @@ export default function Projects() {
             opacity-10
             md:-left-2
             -left-1
-            text-[4.2rem]
+            text-[4rem]
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]

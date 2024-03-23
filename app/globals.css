@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
   lg:before:top-[50%]
   lg:before:-right-6
   lg:before:translate-x-[45%]
-lg:before:bg-red-500
+lg:before:bg-white
 
     
   flex 
@@ -38,7 +38,8 @@ lg:before:bg-red-500
   lg:after:h-[7rem]
   lg:after:top-0
   lg:after:-right-6
-lg:after:bg-red-500;
+  lg:after:opacity-20
+lg:after:bg-white;
 }
 .no-active-skill {
   @apply flex 
@@ -51,6 +52,7 @@ lg:after:bg-red-500;
   lg:after:h-[7rem]
   lg:after:top-0
   lg:after:-right-6
+  lg:after:opacity-20
 lg:after:bg-white;
 }
 
