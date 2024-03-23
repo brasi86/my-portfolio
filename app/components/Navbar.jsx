@@ -102,7 +102,7 @@ export default function Navbar() {
         max-sm:w-full
         max-sm:top-0
         max-sm:left-[100%]
-        max-sm:bg-[url('/bg-black.svg')]
+        max-sm:bg-[#1e1e1e]
         max-sm:text-5xl
       max-sm:text-white
         flex
