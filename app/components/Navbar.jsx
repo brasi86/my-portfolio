@@ -9,6 +9,10 @@ export default function Navbar() {
 
   const tl = gsap.timeline();
 
+  const handleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   if (menu.current) {
     openMenu
       ? tl
@@ -57,7 +61,7 @@ export default function Navbar() {
 
   return (
     <header
-      className="px-8 py-4 max-w-[1440px] h-[80px] mx-auto
+      className="px-8 py-4 max-sm:py-8 max-w-[1440px] h-[80px] mx-auto
     "
     >
       <div className="flex justify-between items-center gap-12">
@@ -138,10 +142,10 @@ export default function Navbar() {
         </nav>
 
         <div
-          onClick={() => setOpenMenu(!openMenu)}
+          onClick={handleMenu}
           className="
-          w-14
-          h-14
+          w-16
+          h-16
           rounded-full
           flex
           items-center
@@ -152,8 +156,7 @@ export default function Navbar() {
           max-sm:fixed
           z-50
           right-5
-          text-white
-          bg-[#1e1e1e]
+         bg-[#1e1e1e]
           "
         >
           <div className="flex flex-col space-y-2">
@@ -161,6 +164,7 @@ export default function Navbar() {
             <span className="hamburger rotate2"></span>
           </div>
         </div>
+
         <p className="max-sm:hidden tracking-wide font-semibold">
           {new Date().getFullYear()}
         </p>

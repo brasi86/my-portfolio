@@ -31,13 +31,13 @@ export default function GoTop() {
           <div
             className="
         fixed
-        bottom-10
-        right-10
+        bottom-8
+        right-5
         border
         shadow-lg
         rounded-full
-        w-14
-        h-14
+        w-16
+        h-16
         flex
         flex-col
         justify-center
