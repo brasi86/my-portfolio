@@ -52,7 +52,7 @@ export default function Skills() {
             opacity-10
             md:-left-2
             -left-1
-            text-[3.5rem]
+            text-[4.5rem]
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]

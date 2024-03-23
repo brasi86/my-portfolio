@@ -98,7 +98,7 @@ export default function Navbar() {
           ref={menu}
           className="mr-auto
         max-sm:fixed
-        max-sm:h-dvh
+        max-sm:h-full
         max-sm:w-full
         max-sm:top-0
         max-sm:left-[100%]
@@ -111,7 +111,6 @@ export default function Navbar() {
         justify-center
         gap-6
         z-50
-         
         "
         >
           <div>
