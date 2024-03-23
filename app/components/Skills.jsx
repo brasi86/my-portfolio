@@ -1,6 +1,7 @@
 export default function Skills() {
   return (
     <section
+      id="skills"
       className="
     flex
     lg:items-center

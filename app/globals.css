@@ -15,3 +15,45 @@ body {
 body::-webkit-scrollbar {
   display: none; /* Nasconde la barra di scorrimento */
 }
+
+.active-skill {
+  @apply lg:before:content-['']
+  lg:before:absolute
+  lg:before:w-4
+  lg:before:h-4
+  lg:before:rounded-full
+  lg:before:top-[50%]
+  lg:before:-right-6
+  lg:before:translate-x-[45%]
+lg:before:bg-red-500
+
+    
+  flex 
+  justify-between 
+  gap-2 
+  items-center
+  lg:after:content-['']
+  lg:after:absolute
+  lg:after:w-[0.1rem]
+  lg:after:h-[7rem]
+  lg:after:top-0
+  lg:after:-right-6
+lg:after:bg-red-500;
+}
+.no-active-skill {
+  @apply flex 
+  justify-between 
+  gap-2 
+  items-center
+  lg:after:content-['']
+  lg:after:absolute
+  lg:after:w-[0.1rem]
+  lg:after:h-[7rem]
+  lg:after:top-0
+  lg:after:-right-6
+lg:after:bg-white;
+}
+
+.hamburger {
+  @apply w-7 h-[0.1rem] bg-white opacity-90;
+}

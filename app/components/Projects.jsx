@@ -54,6 +54,7 @@ export default function Projects() {
               py-1
               lg:py-3
               lg:px-2
+              
               before:absolute
             before:bg-[#0e0e0e]
               before:w-0
@@ -68,24 +69,13 @@ export default function Projects() {
               ease-in-out
               "
             >
-              <div className="flex gap-2 items-center">
+              <div
+                className={
+                  skills === skill.key ? "active-skill" : "no-active-skill"
+                }
+              >
                 <h3>{skill.label}</h3>
-                <span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-7 h-7"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                    />
-                  </svg>
-                </span>
+                <span></span>
               </div>
             </button>
           ))}

@@ -1,5 +1,6 @@
 export const NAV_LINKS = [
   { href: "#projects", key: "projects", label: "Projects" },
+  { href: "#skills", key: "skills", label: "Skills" },
   { href: "#about", key: "about_me", label: "About" },
 ];
 export const SKILLS = [
@@ -40,6 +41,13 @@ export const SKILLS_P = [
   {
     href: "/",
     key: "full_stack_app",
+    title: "Full Stack Application",
+    label:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente, odio in pariatur minima iure maxime a deleniti fugiat nisi unde rerum, perferendis, aut vero veritatis nobis repellat voluptatum ex, perferendis, aut vero veritatis nobis repellat voluptatum ex.",
+  },
+  {
+    href: "/",
+    key: "dsffds",
     title: "Full Stack Application",
     label:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sapiente, odio in pariatur minima iure maxime a deleniti fugiat nisi unde rerum, perferendis, aut vero veritatis nobis repellat voluptatum ex, perferendis, aut vero veritatis nobis repellat voluptatum ex.",

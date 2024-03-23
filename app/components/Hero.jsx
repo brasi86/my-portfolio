@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="px-7 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
+    <section className="px-7 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-svh max-w-[1440px] mx-auto">
       <div className="">
-        <div className="py-4 space-y-1">
+        <div className="py-4space-y-1">
           <h1
             className="
             leading-[3rem] 
@@ -70,7 +70,7 @@ export default function Hero() {
           max-md:max-w-[550px]
           max-lg:max-w-[650px]
           landscape:lg:max-w-[700px]
-          landscape:sm:max-w-[250px]"
+          landscape:sm:max-w-full"
           src="/lae.png"
           alt="lae"
           width={650}

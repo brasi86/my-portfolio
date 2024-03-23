@@ -36,8 +36,8 @@ export default function GoTop() {
         border
         shadow-lg
         rounded-full
-        w-20
-        h-20
+        w-14
+        h-14
         flex
         flex-col
         justify-center
