@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <div id="home" className=" h-screen max-sm:h-svh bg-[url('/bg.svg')]">
+          <Navbar />
           <main className="">{children}</main>
           <GoTop />
         </div>

@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="px-8 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-w-[1440px] mx-auto">
+    <section className="px-8 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
       <div className="">
-        <div className="py-4space-y-1">
+        <div className=" space-y-1">
           <h1
             className="
             leading-[3rem] 
