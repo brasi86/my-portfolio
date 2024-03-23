@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="px-8 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
+    <section className="px-6 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
       <div className="">
         <div className=" space-y-1">
           <h1
@@ -33,7 +33,7 @@ export default function Hero() {
           </h1>
           <h3
             className="
-            px-2
+            px-1
             md:px-4
             text-md
             md:text-xl

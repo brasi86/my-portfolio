@@ -61,7 +61,7 @@ export default function Navbar() {
 
   return (
     <header
-      className="px-9  py-4  max-sm:px-8 max-sm:py-8 max-w-[1440px] h-[80px] mx-auto
+      className="px-9 py-4  max-sm:px-[1.6rem] max-sm:py-8 max-w-[1440px] h-[80px] mx-auto
     "
     >
       <div className="flex justify-between items-center gap-12">
