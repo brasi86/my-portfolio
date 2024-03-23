@@ -30,6 +30,7 @@ export default function Navbar() {
             xPercent: -100,
             borderBottomLeftRadius: 0,
             borderTopLeftRadius: 0,
+            duration: 0.4,
             ease: "power2.inOut",
           })
       : tl
@@ -49,6 +50,7 @@ export default function Navbar() {
             xPercent: 0,
             borderBottomLeftRadius: 200,
             borderTopLeftRadius: 200,
+            duration: 0.4,
             ease: "power2.inOut",
           });
   }
