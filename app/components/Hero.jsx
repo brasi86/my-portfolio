@@ -66,7 +66,7 @@ export default function Hero() {
           bottom-0
           right-0
           rounded-bl-full
-          max-sm:max-w-[370px]
+          max-sm:max-w-[340px]
           max-md:max-w-[550px]
           max-lg:max-w-[650px]
           landscape:lg:max-w-[700px]
