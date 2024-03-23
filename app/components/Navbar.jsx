@@ -52,8 +52,8 @@ export default function Navbar() {
           })
           .to(menu.current, {
             xPercent: 0,
-            borderBottomLeftRadius: 200,
-            borderTopLeftRadius: 200,
+            borderBottomLeftRadius: 100,
+            borderTopLeftRadius: 100,
             duration: 0.4,
             ease: "power2.inOut",
           });
@@ -103,15 +103,18 @@ export default function Navbar() {
         max-sm:top-0
         max-sm:left-[100%]
         max-sm:bg-[url('/bg-black.svg')]
-        max-sm:text-4xl
+        max-sm:text-5xl
       max-sm:text-white
         flex
+        max-sm:px-10
+        max-sm:flex-col
         justify-center
-        items-center
         z-50
          
         "
         >
+          <p className="sm:hidden text-xs opacity-70 uppercase">menu</p>
+          <hr className=" opacity-60border mb-3" />
           <ul className="flex gap-4 font-semibold max-sm:flex-col">
             {NAV_LINKS.map((link) => (
               <a
