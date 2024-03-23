@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
   lg:before:translate-x-[45%]
 lg:before:bg-white
 
-    
+
   flex 
   justify-between 
   gap-2 
@@ -58,4 +58,13 @@ lg:after:bg-white;
 
 .hamburger {
   @apply w-7 h-[0.1rem] opacity-90 bg-white;
+}
+
+.active-label {
+  @apply text-2xl
+  text-white
+  uppercase
+  font-semibold
+  relative
+  w-fit;
 }

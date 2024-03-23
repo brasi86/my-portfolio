@@ -17,6 +17,7 @@ export default function Skills() {
         text-xl
         font-semibold
         lg:text-3xl
+        text-[#1e1e1e]
         "
         >
           We Can Work Togheter

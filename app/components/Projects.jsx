@@ -54,7 +54,7 @@ export default function Projects() {
               py-1
               px-2
               lg:py-3
-              
+             
               
               before:absolute
             before:bg-[#0e0e0e]
@@ -86,22 +86,13 @@ export default function Projects() {
             if (skills === "All" || skills === p.key) {
               return (
                 <div className=" px-4 flex flex-col gap-4" key={p.key}>
-                  <h3
-                    className="
-                  text-2xl
-                  text-white
-                  uppercase
-                  font-semibold"
-                  >
-                    {p.title}
-                  </h3>
+                  <h3 className="active-label">{p.title}</h3>
                   <p
                     className="
                     tracking-wider
                     leading-relaxed
                     max-w-md
                     xl:max-w-xl
-                   
                     xl:min-w-1/2
                   text-white
                     opacity-90

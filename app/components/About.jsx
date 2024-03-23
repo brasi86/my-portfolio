@@ -16,7 +16,7 @@ export default function About() {
     px-4
     min-h-screen
     max-sm:min-h-svh
-    bg-[url('/bg-black.svg')]"
+    bg-[#1e1e1e]"
     >
       <div className="w-full flex flex-col gap-3 justify-center items-center">
         <h3
