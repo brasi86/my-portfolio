@@ -7,25 +7,20 @@ export default function Hero() {
         <div className=" space-y-1">
           <h1
             className="
-            leading-[3.1rem] 
-            text-[3.15rem]
-            md:leading-[7rem]
-            lg:leading-[9rem]
-            sm:text-[6rem]
-            sm:leading-[5rem]
-            md:text-[8rem]
-            lg:text-[10rem]
-            xl:text-[15rem]
+            font-semibold
+            text-[3rem]
+            leading-[3rem]
 
-            landscape:sm:text-[3rem]
-            landscape:sm:leading-[2.8rem]
-          
-            landscape:md:text-[6rem]
-            landscape:md:leading-[5rem]
-
-            landscape:lg:leading-[8rem]
-            landscape:lg:text-[10rem]
+            md:text-[6rem]
+            md:leading-[5rem]
             
+            lg:text-[10rem]
+            lg:leading-[10rem]
+       
+            xl:text-[12rem]
+            xl:leading-[11rem]
+
+             text-[#1e1e1e]
             "
           >
             I&apos;am a<br />
@@ -36,7 +31,7 @@ export default function Hero() {
             className="
             px-1
             md:px-4
-            text-md
+            md:text-md
             md:text-xl
             tracking-wide
             font-semibold

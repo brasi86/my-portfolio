@@ -33,7 +33,7 @@ export default function Projects() {
       >
         <div
           onMouseLeave={() => setSkills("all")}
-          className="flex px-6 flex-col gap-3 opacity-90"
+          className="flex px-2 flex-col gap-2 opacity-90"
         >
           {SKILLS.map((skill) => (
             <button
@@ -52,8 +52,9 @@ export default function Projects() {
               lg:text-6xl
               xl:text-7xl
               py-1
+              px-2
               lg:py-3
-              px-4
+              
               
               before:absolute
             before:bg-[#0e0e0e]
@@ -84,7 +85,7 @@ export default function Projects() {
           {SKILLS_P.map((p) => {
             if (skills === "All" || skills === p.key) {
               return (
-                <div className=" px-6 flex flex-col gap-4" key={p.key}>
+                <div className=" px-4 flex flex-col gap-4" key={p.key}>
                   <h3
                     className="
                   text-2xl
