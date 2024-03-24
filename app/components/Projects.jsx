@@ -15,7 +15,7 @@ export default function Projects() {
     relative
     md:px-2
     min-h-screen
-    max-sm:min-h-lvh
+    max-sm:min-h-svh
     bg-[url('/bg-black.svg')]"
     >
       <div
