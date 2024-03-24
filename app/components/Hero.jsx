@@ -2,23 +2,27 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="px-6 md:px-5 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
+    <section className="max-sm:px-6 sm:px-8 md:px-7 xl:px-7 2xl:px-6 min-h-[calc(100vh-theme(spacing.20))] max-sm:min-h-[calc(100svh-theme(spacing.20))] max-w-[1440px] mx-auto">
       <div className="">
         <div className=" space-y-1">
           <h1
             className="
+            
+            
             font-semibold
             text-[3rem]
             leading-[3rem]
-
-            md:text-[6rem]
-            md:leading-[5rem]
+            sm:text-[5rem]
+            sm:leading-[4rem]
+            md:text-[7.5rem]
+            md:leading-[6.5rem]
+            lg:text-[8.5rem]
+            lg:leading-[7rem]
+            xl:text-[8.5rem]
+            xl:leading-[7.5rem]
+            2xl:text-[12rem]
+            2xl:leading-[10rem]
             
-            lg:text-[10rem]
-            lg:leading-[10rem]
-       
-            xl:text-[12rem]
-            xl:leading-[11rem]
 
              text-[#1e1e1e]
             "
@@ -62,11 +66,13 @@ export default function Hero() {
           bottom-0
           right-0
           rounded-bl-full
-          max-sm:max-w-[360px]
-          max-md:max-w-[550px]
-          max-lg:max-w-[550px]
-          landscape:lg:max-w-[600px]
-          landscape:sm:max-w-[300px]"
+          max-w-[360px]
+          sm:max-w-[450px]
+          md:max-w-[500px]
+          lg:max-w-[510px]
+          xl:max-w-[600px]
+          2xl:max-w-full
+          "
           src="/lae.png"
           alt="lae"
           width={650}

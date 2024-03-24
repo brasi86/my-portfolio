@@ -130,7 +130,8 @@ export default function Navbar() {
                 before:w-0 
                 before:h-[2px]
                 left-0
-                before:bg-black
+                before:bg-[#1e1e1e]
+                before:opacity-80
                 max-sm:before:bg-white
                 before:-bottom-1
                 hover:before:w-full
@@ -172,7 +173,7 @@ export default function Navbar() {
         </div>
 
         <p className="max-sm:hidden tracking-wide font-semibold">
-          {new Date().getFullYear()}
+          &copy; {new Date().getFullYear()}
         </p>
       </div>
       <hr className="max-sm:hidden border mt-3 border-[#424242]" />

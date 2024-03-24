@@ -25,11 +25,14 @@ export default function Skills() {
         <h2
           className="
       text-[#1e1e1e]
-        text-4xl
+        max-sm:text-4xl
+        px-2
         text-center
         lg:text-left
-        md:text-7xl
-        lg:text-9xl
+        lg:px-4
+        md:text-8xl
+        lg:text-8xl
+        xl:text-9xl
         font-bold"
         >
           MY SKILLS AT <br />

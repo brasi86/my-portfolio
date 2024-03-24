@@ -16,7 +16,8 @@ export default function Projects() {
     md:px-2
     min-h-screen
     max-sm:min-h-svh
-    bg-[url('/bg-black.svg')]"
+    bg-[url('/bg-black.svg')]
+    z-10"
     >
       <div
         className="
@@ -33,7 +34,8 @@ export default function Projects() {
       >
         <div
           onMouseLeave={() => setSkills("all")}
-          className="flex px-2 flex-col gap-2 opacity-90"
+          className="flex px-2 flex-col gap-1 opacity-90
+          "
         >
           {SKILLS.map((skill) => (
             <button
@@ -47,13 +49,13 @@ export default function Projects() {
               font-semibold
               relative
             text-white
-              text-[1.95rem]
-              md:text-6xl
+              text-[2.3rem]
+              md:text-8xl
               lg:text-6xl
-              xl:text-7xl
-              py-1
+              xl:text-8xl
               px-2
               lg:py-3
+              tracking-tighter
              
               
               before:absolute
@@ -86,17 +88,21 @@ export default function Projects() {
             if (skills === "All" || skills === p.key) {
               return (
                 <div className=" px-4 flex flex-col gap-4" key={p.key}>
-                  <h3 className="active-label">{p.title}</h3>
+                  <h3 className="active-label md:text-4xl">{p.title}</h3>
                   <p
                     className="
                     tracking-wider
                     leading-relaxed
                     max-w-md
+                    md:max-w-xl
+                    lg:max-w-md
                     xl:max-w-xl
                     xl:min-w-1/2
                   text-white
                     opacity-90
-                    sm:text-xl"
+                    sm:text-xl
+                    md:text-2xl
+                    z-10"
                   >
                     {p.label}
                   </p>
@@ -118,7 +124,8 @@ export default function Projects() {
             sm:text-[6rem]
             md:text-[7rem]
             lg:text-[10rem]
-            xl:text-[12em]"
+            xl:text-[12em]
+            -z-10"
         >
           Projects.
         </h2>

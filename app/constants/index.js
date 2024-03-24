@@ -8,7 +8,7 @@ export const SKILLS = [
   { href: "/", key: "web_design", label: "Web Design" },
   { href: "/", key: "e_commerce", label: "E-Commerce" },
   { href: "/", key: "single_page", label: "Single-Page" },
-  { href: "/", key: "full_stack_app", label: "Full Stack App" },
+  { href: "/", key: "full_stack_app", label: "Full Stack" },
 ];
 export const SKILLS_P = [
   {
@@ -18,7 +18,7 @@ export const SKILLS_P = [
     label: (
       <span>
         What you need,
-        <span className="underline underline-offset-2 font-semibold">
+        <span className="ml-1 underline underline-offset-2 font-semibold">
           All In One place.
         </span>
         <br />
@@ -45,9 +45,9 @@ export const SKILLS_P = [
   {
     href: "/",
     key: "single_page",
-    title: "Single-Page Application",
+    title: "Single-Page App",
     label:
-      "Single-Page web site or Single-Page app with the goal of providing a smoother user experience and similar to traditional desktop applications of operating systems. In a single-page application, all the necessary code (HTML, JavaScript, and CSS) is retrieved in a single page load, or the appropriate resources are dynamically loaded and added to the page when needed, typically in response to user actions.",
+      "Single-Page web site or Single-Page app with the goal of providing a smoother user experience and similar to traditional desktop applications of operating systems. In a single-page application, all the necessary code (HTML, JavaScript, and CSS) is retrieved in a single page load.",
   },
   {
     href: "/",
