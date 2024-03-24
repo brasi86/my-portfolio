@@ -12,6 +12,17 @@ body {
   @apply bg-[#C2BFB6];
 }
 
+@-moz-document url-prefix() {
+  /* Disable scrollbar Firefox */
+  html {
+    scrollbar-width: none;
+  }
+}
+body {
+  -ms-overflow-style: none; /* Disable scrollbar IE 10+ */
+  overflow-y: scroll;
+}
+
 body::-webkit-scrollbar {
   display: none; /* Nasconde la barra di scorrimento */
 }
