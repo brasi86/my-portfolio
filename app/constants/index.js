@@ -16,18 +16,16 @@ export const SKILLS_P = [
     key: "all",
     title: "Let's get to work.",
     label: (
-      <div className="tracking-wide">
-        <span>
-          What you need,{" "}
-          <span className="underline underline-offset-2 font-semibold">
-            All In One place.
-          </span>
-          <br />
-          Landing pages, multi-page websites, Single-Page applications,
-          Full-Stack apps. <br /> Let&apos;s analyze the work and create
-          something unique together.
+      <span>
+        What you need,
+        <span className="underline underline-offset-2 font-semibold">
+          All In One place.
         </span>
-      </div>
+        <br />
+        Landing pages, multi-page websites, Single-Page applications, Full-Stack
+        apps. <br /> Let&apos;s analyze the work and create something unique
+        together.
+      </span>
     ),
   },
   {

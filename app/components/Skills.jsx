@@ -8,7 +8,7 @@ export default function Skills() {
     relative
     px-2
     min-h-screen
-    max-sm:min-h-svh
+    max-sm:min-h-dvh
     bg-[url('/bg.svg')]"
     >
       <div className="w-full flex flex-col gap-3 justify-center items-center">
