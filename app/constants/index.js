@@ -73,16 +73,16 @@ export const CURRICULUM = [
   {
     key: "nodejs",
     img: "/nodejs.svg",
-    desc: "The basics HTML/CSS to build landing page and website",
+    desc: "Web application with the most world’s popular backend",
   },
   {
     key: "database",
     img: "/database.svg",
-    desc: "JavaScript is essential for creating interactive web pages",
+    desc: "Manage application data with SQL and NoSQL database",
   },
   {
     key: "react",
     img: "/react.svg",
-    desc: "The latest technology for editing and creating web application",
+    desc: "Use the most pupular frontend framwork to create modern PWA",
   },
 ];
