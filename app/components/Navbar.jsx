@@ -103,7 +103,7 @@ export default function Navbar() {
         max-sm:top-0
         max-sm:left-[100%]
         max-sm:bg-[#1e1e1e]
-        max-sm:text-5xl
+        max-sm:text-4xl
       max-sm:text-white
         flex
         max-sm:px-10
